@@ -81,7 +81,7 @@ for roaster, products in roasters.items():
 
 
 # WRITING EACH DATAFRAME IN THE FINAL EXCEL:
-with pd.ExcelWriter(f'C:/Users/abrug/Desktop/LNV Orders/Logistics/Logistics_{present_date}.xlsx') as writer:
+with pd.ExcelWriter(f'Logistics_{present_date}.xlsx') as writer:
     for name, df in df_dictionary.items():
 
         df.to_excel(writer, sheet_name=name)

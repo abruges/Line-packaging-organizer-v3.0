@@ -6,7 +6,7 @@ from Setup_info import box_capacity_df, product_supplier_dataframe
 now = dt.datetime
 present_date = now.today().strftime("%d-%m-%Y")
 
-orders_raw_data = pd.read_excel(f'C:/Users/abrug/Desktop/LNV Orders/Orders/Orders_{present_date}.xlsx')
+orders_raw_data = pd.read_excel(f'Orders_{present_date}.xlsx', engine="openpyxl")
 orders_dataframe = pd.DataFrame(orders_raw_data)
 orders_dataframe = orders_dataframe[orders_dataframe['Product/Service'].notna()]
 

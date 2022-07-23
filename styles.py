@@ -14,7 +14,7 @@ mark_empty_orders = True
 now = dt.datetime
 present_date = now.today().strftime("%d-%m-%Y")
 
-book_address = f'C:/Users/abrug/Desktop/LNV Orders/Logistics/Logistics_{present_date}.xlsx'
+book_address = f'Logistics_{present_date}.xlsx'
 
 workbook_name = book_address
 
@@ -116,7 +116,7 @@ def apply_style(sheet_name, table_height, table_width, red_box_index, small_box_
 
 
     # ADDING GRAY SHADING FOR EMPTY ORDERS
-    gray_workbook_df = pd.read_excel(book_address, sheet_name=sheet_name)
+    gray_workbook_df = pd.read_excel(book_address, sheet_name=sheet_name, engine="openpyxl")
     gray_workbook_df.drop(columns=['Orders ⬇️', 'Box'], inplace=True)
 
     gray_rows = []
@@ -152,7 +152,7 @@ def apply_style(sheet_name, table_height, table_width, red_box_index, small_box_
     ws['A1'].font = Font(bold=True)
 
     # ADDING IMAGE
-    img = Image(f'C:/Users/abrug/Desktop/LNV Orders/Inventory/Images/{sheet_name}.jpg')
+    img = Image(f'Images/{sheet_name}.jpg')
     img.width = 210
     img.height = 210
     ws.add_image(img, 'A2')
