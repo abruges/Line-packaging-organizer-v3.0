@@ -1,5 +1,6 @@
 <!-- REFERENCES -->
 [Pandas]: https://img.shields.io/badge/pandas-FFFFFF?style=for-the-badge&logo=pandas&logoColor=blue
+[Openpyxl]: https://img.shields.io/badge/openpyxl-5A45FF?style=for-the-badge&logo=openbadges&logoColor=white
 
 [![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/andres-bruges-776382126/)
 
@@ -41,6 +42,7 @@ versions will include a direct Quickbooks API solution using the OAUTH 2.0 proto
 ### Built With
 
 * [![Pandas][Pandas]](https://pandas.pydata.org/)
+* [![Openpyxl][Openpyxl]](https://openpyxl.readthedocs.io/en/stable/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
