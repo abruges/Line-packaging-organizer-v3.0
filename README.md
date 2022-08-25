@@ -39,7 +39,7 @@ versions will include a direct Quickbooks API solution using the OAUTH 2.0 proto
 
 ### Built With
 
-* [![Next][Nexo]][Next-url]
+* [![Next][Next.js]]
 * [![React][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
