@@ -8,7 +8,7 @@
 <br />
 <div align="center">
   <a>
-    <img src="images/box.jpg" alt="Logo" width="80" height="80">
+    <img src="images/box.jpg" alt="Logo" width="120" height="120">
   </a>
 
 <h3 align="center">Line Packaging Organizer v3.0</h3>
