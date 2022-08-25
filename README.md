@@ -1,4 +1,5 @@
-
+<!-- REFERENCES -->
+[Pandas]: https://img.shields.io/badge/pandas-FFFFFF?style=for-the-badge&logo=pandas&logoColor=blue
 
 [![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/andres-bruges-776382126/)
 
@@ -39,14 +40,7 @@ versions will include a direct Quickbooks API solution using the OAUTH 2.0 proto
 
 ### Built With
 
-* [![Net][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [![Pandas][Pandas]](https://pandas.pydata.org/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
