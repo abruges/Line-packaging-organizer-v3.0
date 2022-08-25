@@ -7,8 +7,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a>
+    <img src="images/box.jpg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Line Packaging Organizer v3.0</h3>
