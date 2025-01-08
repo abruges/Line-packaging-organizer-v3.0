@@ -51,8 +51,7 @@ versions will include a direct Quickbooks API solution using the OAUTH 2.0 proto
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Update your local directions in the Setup and Hard data files and run the script after downloading the quickbooks report with the correct date. If you have any questions, just email me at abruges1991@gmail.com
 
 ### Prerequisites
 
